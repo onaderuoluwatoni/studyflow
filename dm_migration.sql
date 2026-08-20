@@ -1,0 +1,5 @@
+ALTER TABLE direct_messages ADD COLUMN IF NOT EXISTS attachment_path VARCHAR(255) NULL;
+ALTER TABLE direct_messages ADD COLUMN IF NOT EXISTS attachment_type VARCHAR(60) NULL;
+ALTER TABLE direct_messages ADD COLUMN IF NOT EXISTS attachment_name VARCHAR(255) NULL;
+ALTER TABLE direct_messages ADD COLUMN IF NOT EXISTS disappear_mode VARCHAR(20) NULL;
+ALTER TABLE direct_messages ADD COLUMN IF NOT EXISTS expires_at DATETIME NULL;

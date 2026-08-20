@@ -1,0 +1,10 @@
+# Never commit real secrets
+config/ai_key.local.php
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.log
+
+# Local uploads (if you ever store user uploads on disk)
+uploads/
